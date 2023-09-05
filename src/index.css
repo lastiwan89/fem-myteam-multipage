@@ -1,0 +1,49 @@
+:root {
+  --green-midnight: #014d56;
+  --green-jungle: #004047;
+  --green-sacramento: #012d32;
+  --green-dark: #002529;
+
+  --blue-rapture: #79c8c7;
+  --blue-police: #2c6168;
+
+  --white: #ffffff;
+  --light-coral: #f67e7e;
+
+  /* Typography */
+  --font-stack: "Livvic", sans-serif;
+  --fs-h1-100: 5.5rem;
+  --fs-h1-64: 4rem;
+  --fs-h2-48: 3rem;
+  --fs-h3-18: 1.125rem;
+  --fs-body-18: 1.125rem;
+  --fs-body-15: 0.9375rem;
+
+  /* line height */
+  --line-h1-100: 100px;
+  --line-h1-64: 56px;
+  --line-h2-48: 48px;
+  --line-h3-18: 28px;
+  --line-body-18: 28px;
+  --line-body-15: 25px;
+
+  /* font weight */
+  --fw-h1-100: 700;
+  --fw-h1-64: 700;
+  --fw-h2-48: 700;
+  --fw-h3-18: 700;
+  --fw-body-18: 600;
+  --fw-body-15: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-stack);
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
